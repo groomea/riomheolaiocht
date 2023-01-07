@@ -1,0 +1,143 @@
+.togtha, .strioc {
+  width: 300px;
+  height: 70px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+ }
+
+ .strioc {
+ 	padding: 8px;
+  margin-top: 35px;
+ }
+
+
+.togthaImg {
+  width: 75px;
+  height: 65px;
+  float: right;
+}
+
+.plotlyGraph {
+	width: 100%;
+	height: 100%;
+	padding-left: 2%;
+}
+
+
+/* W3Schools, W3.CSS Sidebar. Ar fáil ag: https://www.w3schools.com/w3css/w3css_sidebar.asp [Dáta rochtana 9 Márta 2022] */
+.w3-bar-block .w3-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+  font-family: 'Segoe UI';
+}
+
+/* (W3Schools, W3.CSS Sidebar) */
+.w3-btn, .w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* (W3Schools, W3.CSS Sidebar) */
+.w3-btn, .w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* (W3Schools, W3.CSS Sidebar) */
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
+/* (W3Schools, W3.CSS Sidebar) */
+.w3-sidebar {
+  height: 100%;
+  width: 20%;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: hidden;
+  left: 0px;
+  padding-top: 5%;
+}
+
+
+/* W3Schools, How TO - Icon Bar. Ar fáil ag: https://www.w3schools.com/howto/howto_css_icon_bar.asp [Dáta rochtana 9 Márta 2022] */
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+
+  margin-top: -8px;
+  margin-left: -8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  position: fixed;
+  z-index: 2;
+}
+
+/* (W3Schools, How TO - Icon Bar) */
+.icon-bar a {
+	color: white;
+	float: right;
+	padding-right: 2%;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+img {
+	width: 50%;
+	padding-left: 22%;
+}
+
+/* W3Schools, CSS @media Rule. Ar fáil ag: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp [Dáta rochtana 9 Márta 2022] */
+@media only screen 
+and (max-width : 420px) {
+  .w3-sidebar {
+    width: 25%;
+    padding-top: 10%;
+  }
+  .margin {
+  	margin-left: 25%;
+  }
+  .icon-bar a {
+  	padding-right: 10%;
+  } 
+}
+/* (W3Schools, CSS @media Rule) */
+@media only screen and (min-width: 992px) {
+	.w3-sidebar {
+		width: 20%;
+		padding-top: 5%;
+	}
+}
+
+
+.margin {
+	margin-left:20%;
+}

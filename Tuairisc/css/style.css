@@ -1,0 +1,270 @@
+
+body, html {
+  height: 100%;
+}
+
+
+/* W3Schools, How TO - Parallax Scrolling. Ar fáil ag: https://www.w3schools.com/howto/howto_css_parallax.asp [Dáta rochtana 9 Márta 2022]  */
+.tuairiscParallax {
+  /* Slidebean, 2019. Startup office with a ping-pong table and desk, Ar fáil ag: https://unsplash.com/photos/TpGIpUF67po [Dáta rochtana 9 Márta 2022] */
+  background-image: url('../img/slidebean-TpGIpUF67po-unsplash.jpg');
+
+  height: 68%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -8px;
+	
+}
+
+
+.bigText {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+
+.onBaile {
+	background: rgba(255, 0, 0);
+}
+
+.baile {
+  transition: all 0.5s ease-out;
+}
+
+.baile:hover {
+  background: rgba(255, 0, 0);
+}
+
+.onFuinn {
+	background: rgba(241, 90, 34, 1);
+}
+
+.fuinn {
+	transition: all 0.5s ease-out;
+}
+
+.fuinn:hover {
+	background: rgba(241, 90, 34, 1);
+}
+
+.onTuairisc {
+  background: rgba(46, 204, 113);
+}
+
+.tuairisc {
+	transition: all 0.5s ease-out;
+}
+
+.tuairisc:hover {
+	background: rgba(245, 229, 27, 1);
+}
+
+.onTeagmhail {
+	background: rgba(45, 85, 255, 1);
+}
+
+.teagmhail {
+	transition: all 0.5s ease-out;
+}
+
+.teagmhail:hover {
+	background: rgba(45, 85, 255, 1);
+}
+
+.onLogailIsteach {
+	background: rgba(147, 112, 219, 1);
+}
+
+.logailIsteach {
+	transition: all 0.5s ease-out;
+}
+
+.logailIsteach:hover {
+	background: rgba(147, 112, 219, 1);
+}
+
+.tairge {
+    transition: all 0.5s ease-out;
+}
+
+.onTairge {
+  background: rgba(245, 229, 27, 1);
+}
+
+.tairge:hover {
+  background: rgba(245, 229, 27, 1);
+}
+
+.articleText {
+/*  display:flex;*/
+  justify-content: left;
+  font-size: 18px;
+}
+
+/* W3Schools, CSS @media Rule. Ar fáil ag: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp [Dáta rochtana 9 Márta 2022] */
+@media only screen and (min-width: 600px) {
+	.articleText {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.bigText {
+		left: 0%;
+	}
+}	
+
+@media only screen and (min-width: 992px) {
+	.bigText {
+		left: 25%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+  .bigText {
+    left: 25%;
+  }
+}
+
+@media only screen 
+and (max-width : 620px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen 
+and (max-width : 1010px) {
+  .articleBar {
+    display: none;
+  }
+}
+
+.articleImage {
+	object-fit: cover;
+
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.menuBar {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+i {
+	text-align: center;
+}
+
+
+.articleSubTitle {
+	font-size: 30px;
+}
+
+.articleBar {
+	float: right;
+	position: fixed;
+	right: 10px;
+  bottom: 5px;
+}
+
+.floatRight {
+	float: right;
+  font-family: calibri;
+}
+
+.liosta {
+	justify-content: left;
+}
+
+
+
+
+.bodyTitle {
+  color: white;
+  font-size: 4em;
+  position: sticky;
+  top: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bodyText {
+  color: white;
+  font-size: 2em;
+  position: sticky;
+  top: 200px;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.bodyImg {
+  position: sticky;
+  top: 100px;
+  text-align: center;
+}
+
+.barrAnLch {
+  position: absolute;
+  display: flex;
+  justify-content: center; 
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 0px #000000;
+  font-family: 'Lato', sans-serif;
+  bottom: 10px;
+
+  width: 100%;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.teideal {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 25px;
+}

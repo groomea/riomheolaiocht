@@ -1,0 +1,97 @@
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: -8px;
+  margin-top: 0px;
+}
+
+/* W3Schools, How TO - Parallax Scrolling. Ar fáil ag: https://www.w3schools.com/howto/howto_css_parallax.asp [Dáta rochtana 9 Márta 2022]  */
+.parallax {
+  /* Cotoaga, K., 2019. Ar fáil ag: https://unsplash.com/photos/mkROo_db9uE [Dáta rochtana March 9, 2022] */
+  /* Riggin, K., 2022. Ar fáil ag: https://unsplash.com/photos/zoQpeA_BK8M [Dáta rochtana March 9, 2022] */
+  background-image: url('../img/kurt-cotoaga-mkROo_db9uE-unsplash.jpg');
+
+  height: 100%; 
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  min-height:100%;
+  transform: scale(1.1);
+}
+
+.bigText {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 4em;
+
+  font-family: 'Lato', sans-serif;
+}
+
+
+.foirm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  width: 400px;
+  height: 200px;
+
+  border:1px solid white;
+  font-family: Segoe UI;
+  padding: 5px;
+
+}
+
+button {
+  font-family: Segoe UI;
+  float: right;
+}
+
+input {
+  font-family: Segoe UI;
+  float: right;
+}
+
+/* W3Schools, Ar fáil ag: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp [Dáta rochtana 9 Márta 2022] */
+@media only screen and (min-width: 992px) {
+  .bigText {
+    font-size: 5em;
+  }
+}
+/* (W3Schools, CSS @media Rule) */
+@media only screen 
+and (max-width : 400px) {
+  .foirm {
+    width: 95%;
+    height: 40%;
+  }
+}
+
+
+label {
+    float: left
+}
+span {
+    display: block;
+    overflow: hidden;
+    padding: 0 4px 0 6px
+}
+
+
+

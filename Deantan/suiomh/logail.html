@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ga">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/logail.css">
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+
+  <style type="text/css">@font-face { font-family: Lato; src: url('css/clo/lato-v22-latin-900.ttf'); } </style>
+  <style type="text/css">@font-face { font-family: Merriweather; src: url('css/clo/merriweather-v28-latin-regular.ttf'); } </style>
+
+  <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+
+
+
+<!--   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script> -->
+  <script src="js/logail.js"></script>
+
+  <title> IT | Logáil Isteach </title>
+<!--
+NB: Seo na sonraí logála isteach don Deais: 
+Rphost: sampla@sampla.com 
+Pasfhocal:  pasfhocal  -->
+</head>
+<body>
+
+
+  <div class="parallax"> 
+  </div>
+
+  <div class="bigText">Logáil isteach</div>
+  <div class="foirm">
+    <form class="form">
+      <label>
+        Le do thoil comhlíonaigh do shonraí <!-- <br> <br> --></label>
+
+    <!--     <br> -->
+
+      
+      
+
+      <br>
+      <br>
+      <label for="Bosca do do ríomhphost">Rphost:</label>
+<!--       <p> Rphost: </p> -->
+      <span><input type="text" id="rphost" name="Rphost" placeholder="Rphost" label="Bosca do do ríomhphost" alt="Bosca do do ríomhphost">  </span>
+
+<!--     <br> -->
+    <br>
+      <label for="Bosca do do phasfhocal">Pasfhocal:</label>
+      <span><input href="deais.html" id="pasfhocal" type="password" name="Pasfhocal" placeholder="Pasfhocal" required alt="Bosca do do phasfhocal"></span>
+<!--       <br>
+      <br> -->
+          </form>
+
+    <br>
+    <br>
+      <button onclick="validateEmail()" type="isteach">Sínigh isteach</button>
+    </div>
+
+  </div>
+
+<script type="text/javascript">
+        window.onload = function () {
+            var images = ['img/1.avif', 'img/2.avif'];
+            var image = images[Math.floor(Math.random() * images.length)];
+            document.getElementsByClassName('parallax')[0].style.backgroundImage = "url('" + image + "')";
+            // document.getElementsByTagName('body')[0].style.backgroundRepeat = "no-repeat";
+            // document.getElementsByTagName('body')[0].style.backgroundSize = "cover";
+        }
+    </script>
+
+</body>
+
+</html>

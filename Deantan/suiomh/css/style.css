@@ -1,0 +1,515 @@
+
+body, html {
+  height: 100%;
+}
+
+
+/* W3Schools, How TO - Parallax Scrolling. Ar fáil ag: https://www.w3schools.com/howto/howto_css_parallax.asp [Dáta rochtana 9 Márta 2022]  */
+.parallax {
+  /* hellojardo, 2017. Mt. Solitaire Sunset, Ar fáil ag: https://unsplash.com/photos/c1uSwK9m8j0 [Dáta rochtana 9 Márta 2022] */
+  background-image: url('../img/sun.jpg');
+
+  height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -8px;
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.tairgeParallax {
+  /* Vanermen, F., 2022. Ar fail ag: https://unsplash.com/photos/ZDTj2Ismxl0 [Dáta rochtana 9 Márta 2022]  */
+  background-image: url('../img/febe-vanermen-ZDTj2Ismxl0-unsplash.jpg'); 
+  background-color: white;
+
+  height: 125%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -8px;
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.parallax2 {
+  background-image: url('../img/aaron-burden-GFpxQ2ZyNc0-unsplash.jpg');
+
+  height: 200%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-top: 8px;
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.parallax3 {
+  /* hellojardo, 2017. Mt. Solitaire Sunset, Ar fáil ag: https://unsplash.com/photos/c1uSwK9m8j0 [Dáta rochtana 9 Márta 2022] */
+  background-image: url('../img/sun.jpg');
+
+  height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-top: 8px;
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.postParallax {
+  /* Slidebean, 2019. Startup office desk with black chairs and whiteboard, Ar fáil ag: https://unsplash.com/photos/6MtJ-y1hzTs [Dáta rochtana 9 Márta 2022] */
+  background-image: url('../img/slidebean-6MtJ-y1hzTs-unsplash.jpg');
+
+  height: 70%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -8px;
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.tuairiscParallax {
+  /* Slidebean, 2019. Startup office with a ping-pong table and desk, Ar fáil ag: https://unsplash.com/photos/TpGIpUF67po [Dáta rochtana 9 Márta 2022] */
+  background-image: url('../img/slidebean-TpGIpUF67po-unsplash.jpg');
+
+  height: 70%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -8px;
+	
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.teagmhailParallax {
+  /* Slidebean, 2019. Startup office space, with spiral stairs, Ar fáil ag: https://unsplash.com/photos/GKKTxpNghBc [Dáta rochtana 9 Márta 2022]  */
+  background-image: url('../img/slidebean-GKKTxpNghBc-unsplash.jpg');
+
+  height: 70%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -8px;
+}
+
+
+.bigText {
+  position: absolute;
+
+  top: 50%;
+  
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-family: 'Lato', sans-serif;
+}
+
+.tairgeBigText {
+  position: absolute;
+
+  top: 35%;
+  left: 60%;
+  
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-family: 'Lato', sans-serif;
+}
+
+.tairgeImg {
+  width: 60%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+
+.onBaile {
+	background: rgba(255, 0, 0);
+}
+
+.baile {
+  transition: all 0.5s ease-out;
+}
+
+.baile:hover {
+  background: rgba(255, 0, 0);
+}
+
+.onFuinn {
+	background: rgba(241, 90, 34, 1);
+}
+
+.fuinn {
+	transition: all 0.5s ease-out;
+}
+
+.fuinn:hover {
+	background: rgba(241, 90, 34, 1);
+}
+
+
+.tuairisc {
+  transition: all 0.5s ease-out;
+}
+
+.tuairisc:hover {
+  background: rgba(46, 204, 113);
+}
+
+.onTeagmhail {
+  background: rgba(45, 85, 255, 1);
+}
+
+.teagmhail {
+  transition: all 0.5s ease-out;
+}
+
+.teagmhail:hover {
+  background: rgba(45, 85, 255, 1);
+}
+
+.onLogailIsteach {
+  background: rgba(147, 112, 219, 1);
+}
+
+.logailIsteach {
+  transition: all 0.5s ease-out;
+}
+
+.logailIsteach:hover {
+  background: rgba(147, 112, 219, 1);
+}
+
+.tairge {
+    transition: all 0.5s ease-out;
+}
+
+.onTairge {
+  background: rgba(245, 229, 27, 1);
+
+}
+
+.tairge:hover {
+  background: rgba(245, 229, 27, 1);
+}
+
+.articleText {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* W3Schools, CSS @media Rule. Ar fáil ag: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp [Dáta rochtana 9 Márta 2022] */
+@media only screen and (min-width: 600px) {
+	.articleText {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.bigText {
+		left: 0%;
+	}
+
+
+}	
+/* (W3Schools, CSS @media Rule) */
+@media only screen and (min-width: 992px) {
+	.bigText {
+		left: 25%;
+	}
+}
+/* (W3Schools, CSS @media Rule) */
+@media only screen and (min-width: 992px) {
+  .bigText {
+    left: 25%;
+  }
+
+  .bodyTitle {
+    font-size: 4em;
+  }
+
+  .bodyText {
+    top: 200px;
+  }
+}
+/* (W3Schools, CSS @media Rule) */
+@media only screen and (max-width : 750px) {
+  .logo {
+    display: none;
+  }
+
+
+
+}
+/* (W3Schools, CSS @media Rule) */
+@media only screen and (max-width : 1010px) {
+  .articleBar {
+    display: none;
+  }
+}
+
+.articleImage {
+	object-fit: cover;
+
+  	width: 100%;
+  	max-width: 600px;
+  	height: auto;
+
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+/* (W3Schools, CSS @media Rule) */
+@media only screen and (max-width: 800px) {
+  .tairgeBigText {
+    top: 50%;
+    left: 0%;
+  }
+
+  .tairgeImg {
+    width: 90%;
+  }
+
+  .tairgeBigText {
+    top: 0%;
+  }
+  .drugGandrog {
+    top: 50%;
+  }
+}
+
+
+
+.menuBar {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+i {
+	text-align: center;
+}
+
+
+.articleSubTitle {
+	font-size: 22px;
+}
+
+.articleBar {
+	float: right;
+	position: fixed;
+	right: 10px;
+}
+
+.floatRight {
+	float: right;
+}
+
+.liosta {
+	justify-content: left;
+}
+
+
+/* Animista, Ar fáil ag: https://animista.net/ [Dáta rochtana 9 Márta 2022] */
+.slide-in-fwd-center {
+  -webkit-animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-out-bck-center {
+  -webkit-animation: slide-out-bck-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          animation: slide-out-bck-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+@-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-out-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateZ(-1100px);
+            transform: translateZ(-1100px);
+    opacity: 0;
+  }
+}
+@keyframes slide-out-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateZ(-1100px);
+            transform: translateZ(-1100px);
+    opacity: 0;
+  }
+}
+
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.content {
+  background-image: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg"); /* NASA, 2015. Beautiful Free Images and Pictures. Ar fáil ag: https://unsplash.com/photos/Q1p7bh3SHj8 [Dáta rochtana 9 Márta 2022] */
+  margin-top: 8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 200%;
+  position: sticky;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/* (W3Schools, HTML DOM Element scrollTop) */
+.content2 {
+  background-image: url("../img/clem-onojeghuo-P8g80g8L8Ok-unsplash.jpg"); /* Onojeghuo, C., 2018. Beautiful Free Images and Pictures. Ar fáil ag: https://unsplash.com/photos/P8g80g8L8Ok [Dáta rochtana 9 Márta 2022] */
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 300%;
+  position: sticky;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1px;
+
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.content3 {
+  background-image: url("../img/kenrick-mills-MF9Wy1NA55I-unsplash.jpg"); /* Mills, K., 2018. Beautiful Free Images &amp; Pictures. Ar fáil ag: https://unsplash.com/photos/MF9Wy1NA55I [Dáta rochtana 9 Márta 2022] */
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 130%;
+  position: sticky;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1px;
+
+}
+
+.bodyTitle {
+  color: white;
+  font-size: 3em;
+  position: sticky;
+  top: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bodyText {
+  color: white;
+  font-size: 2.5em;
+  position: sticky;
+  top: 350px;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.bodyImg {
+  position: sticky;
+  top: 100px;
+  text-align: center;
+}
+
+.barrAnLch {
+  position: absolute;
+  display: flex;
+  justify-content: center; 
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 0px #000000;
+  font-family: 'Lato', sans-serif;
+  bottom: 10px;
+  width: 100%;
+}
+
+/* (W3Schools, HTML DOM Element scrollTop) */
+.sleamhnan1 {
+  background-color: white;
+/*  margin-top: 8px;*/
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 150%;
+  position: sticky;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+}

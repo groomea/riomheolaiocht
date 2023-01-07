@@ -1,0 +1,34 @@
+/* Delaney, J., 2020. How to Create an HTML Contact Form from Scratch. Ar fáil ag: https://paperform.co/blog/html-contact-form/ [Dáta rochtana 9 Márta 2022] */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/* (Delaney, How to Create an HTML Contact Form from Scratch 2020) */
+input[type=submit] {
+  background-color: #5DADE2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+/* (Delaney, How to Create an HTML Contact Form from Scratch 2020) */
+.fcf-body {
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0000ff;
+    text-align: left;
+}
+/* (Delaney, How to Create an HTML Contact Form from Scratch 2020) */
+.fcf-form-class {
+  padding-left: 20%;
+  padding-right: 20%;
+
+  font-family: "Arial";
+}
